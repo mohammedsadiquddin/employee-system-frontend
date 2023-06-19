@@ -70,21 +70,21 @@ const GetEmp = () => {
               <td>
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn btn-primary bottomspace"
                   onClick={() => handleEdit(employee.id)}
                 >
                   Edit
                 </button>{" "}
                 <button
                   type="button"
-                  className="btn btn-danger"
+                  className="btn btn-danger bottomspace"
                   onClick={() => handleDelete(employee.id)}
                 >
                   Delete
                 </button>{" "}
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary bottomspace"
                   onClick={() => handleView(employee.id)}
                 >
                   View

@@ -3,6 +3,8 @@ import axios from "axios";
 const EMPLOYEE_API_URL =
   "https://employee-system-backend-production.up.railway.app/api/employees";
 
+// const EMPLOYEE_API_URL = "http://localhost:8080/api/employees";
+
 class EmployeeService {
   getEmp() {
     return axios.get(EMPLOYEE_API_URL);
